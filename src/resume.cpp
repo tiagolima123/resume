@@ -107,7 +107,7 @@ void Resume::drawUsername(QPainter &painter) {
 void Resume::drawTitle(QPainter &painter) {
 	QColor brush_color(100, 100, 100, 255);
 	drawText(painter, 
-		QPoint(30*sw, 110*sh), "programmer",
+		QPoint(30*sw, 110*sh), "Programmer",
 		brush_color, Qt::SolidPattern,
 		200*sh, Qt::SolidLine,
 		QFont("Helvetica", 10));
@@ -117,13 +117,13 @@ void Resume::drawAddress(QPainter &painter) {
 	QColor brush_color(100, 100, 100, 255);
 
 	drawText(painter, 
-		QPoint(30*sw, 130*sh), "rúa do campo, Apíai/SP, 18324-000",
+		QPoint(30*sw, 130*sh), "Rúa do Campo, Apíai/SP, 18324-000",
 		brush_color, Qt::SolidPattern,
 		200*sh, Qt::SolidLine,
 		QFont("Helvetica", 10));
 
 	drawText(painter, 
-		QPoint(30*sw, 150*sh), "Brasil",
+		QPoint(30*sw, 150*sh), "Brazil",
 		brush_color, Qt::SolidPattern,
 		200*sh, Qt::SolidLine,
 		QFont("Helvetica", 10));
