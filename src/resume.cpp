@@ -269,7 +269,7 @@ void Resume::drawDetails(QPainter &painter) {
 
 void Resume::drawGithub(QPainter &painter) {
 
-	QString text = "This resume was written using C++ and Qt -> ";
+	QString text = "This résumé was written using C++ and Qt -> ";
 
 	QColor brush_color_gray(100, 100, 100, 255);
 
