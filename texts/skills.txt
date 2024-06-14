@@ -1,0 +1,11 @@
+data analysis:5
+C++:5
+python:5
+node:5
+qt/qml:5
+linux:5
+html/js/css:5
+sql:5
+github:4
+sklearn:3
+tensorflow:3

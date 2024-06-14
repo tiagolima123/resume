@@ -1,0 +1,3 @@
+português:5
+english:4
+spanish:4

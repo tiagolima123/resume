@@ -1,0 +1,24 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201703L
+QMAKE_CXX.QMAKE_CLANG_MAJOR_VERSION = 18
+QMAKE_CXX.QMAKE_CLANG_MINOR_VERSION = 1
+QMAKE_CXX.QMAKE_CLANG_PATCH_VERSION = 7
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 4
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 2
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 1
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_CLANG_MAJOR_VERSION \
+    QMAKE_CLANG_MINOR_VERSION \
+    QMAKE_CLANG_PATCH_VERSION \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /data/data/com.termux/files/usr/include/c++/v1 \
+    /data/data/com.termux/files/usr/lib/clang/18/include \
+    /data/data/com.termux/files/usr/include/aarch64-linux-android \
+    /data/data/com.termux/files/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /data/data/com.termux/files/usr/lib/clang/18 \
+    /data/data/com.termux/files/usr/lib \
+    /system/lib64
